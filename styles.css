@@ -5,8 +5,8 @@
 
 body {
     display: grid;
-    grid-template-columns: 2% 1fr 1fr 2%;
-    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-columns: 5% 1fr 1fr 7%;
+    grid-template-rows: 10vh 70vh 10vh;
     grid-gap: 10px;
     background-size: 100vw 100vh;
     background-image: linear-gradient(skyblue, white);
@@ -22,22 +22,20 @@ nav a {
     font-size: 35px;
     text-decoration-color: whitesmoke;
     text-decoration: underline;
-    
+
 }
 
 nav {
     grid-column: 2/3;
-    
+
 }
 
 .special {
     text-shadow: 3px 3px 5px blue;
 }
-
-nav img {
-grid-column: 3/4;
+.logo {
     height: 100px;
-
+    grid-column: 4/5;
 }
 
 section {}
