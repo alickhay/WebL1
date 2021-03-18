@@ -1,0 +1,108 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/font1.ttf);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 7%;
+    grid-template-rows: 15vh 65vh 10vh;
+    grid-gap: 10px;
+    background-size: 100vw 100vh;
+    background-image: linear-gradient(skyblue, white);
+}
+
+
+nav a {
+
+    text-shadow: 3px 2px 2px black;
+    font-family: font1;
+    margin: 2px;
+    color: whitesmoke;
+    font-size: 35px;
+    text-decoration-color: whitesmoke;
+    text-decoration: underline;
+
+}
+
+nav {
+    grid-column: 2/3;
+
+}
+
+.special {
+    text-shadow: 3px 3px 5px blue;
+}
+
+.logo {
+    height: 100px;
+    grid-column: 4/5;
+}
+
+section {
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4.5% 1fr 4.5%;
+    grid-gap: 10px;
+    box-shadow: -8px 3px 25px 1px rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 0, 255, 0);
+    grid-column: 2/4;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    text-shadow: 1px 2px 3px black;
+    font-family: font1;
+    color: whitesmoke;
+    font-size: 50px;
+    text-decoration-color: whitesmoke;
+    text-decoration: underline;
+}
+
+
+}
+
+h2 {
+    text-shadow: 1px 2px 3px black;
+    font-family: font1;
+    margin: 2px;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-column: 1/2;
+    text-shadow: 3px 3px 5px white;
+}
+
+img { 
+display: block;
+margin-left: auto;
+margin-right: auto; 
+height: 250px;
+}
+
+button{
+    
+     background-color: skyblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button1 {
+    
+}
+
+.button2 {
+    
+}
+
+.button3 {
+    
+}
+
