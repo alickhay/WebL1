@@ -50,9 +50,9 @@ section {
 }
 
 h1 {
+    margin: 10px;
     text-shadow: 1px 2px 3px black;
     font-family: font1;
-    margin: 2px;
     color: whitesmoke;
     font-size: 50px;
     text-decoration-color: whitesmoke;
@@ -79,11 +79,13 @@ h2 {
 }
 .box{
     background-color: rgba(255, 255, 255, 0.8);
-    background-size: cover;
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 .logo2 {
     height: 150px;
+    align-self:center;
 }
 
 
