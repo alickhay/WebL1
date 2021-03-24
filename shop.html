@@ -4,7 +4,11 @@
     <title>SHOP</title>
     <link href="stylesshop.css" rel="stylesheet">
 </head>
-
+<script>
+ function my() {
+  alert("I am an alert box!");
+}
+</script>
 <body>
     <nav>
         <a href="index.html">HOME</a>
@@ -14,21 +18,30 @@
     <img class="logo" src="logo/logoforshop2.png">
 
     <section>
-        <img src="products/mousepad1.png">
-        <button class="button1" type="button">BUY!</button>
-       
-        <img src="products/mousepad2.png">
-         <button class="button2" type="button">BUY!</button>
-       
-        <img src="products/mousepad3.png">
-        <button class="button3" type="button">BUY!</button>
-        
-        <img src="products/mousepad4.png">
-        <button class="button4" type="button">BUY!</button>
-        
-        <img src="products/mousepad5.png">
-        <button class="button5" type="button">BUY!</button>
-        
-        <img src="products/mousepad6.png">
-        <button class="button6" type="button">BUY!</button>
+        <ul class="shop">
+            <li>
+                <img src="products/mousepad1.png">
+                <button onclick="my()">Try it</button>
+            </li>
+            <li>
+                <img src="products/mousepad2.png">
+                <button onclick="onclick()" class="button" type="button">$29.99 BUY!</button>
+            </li>
+            <li>
+                <img src="products/mousepad3.png">
+                <button onclick="onclick()" class="button" type="button">$29.99 BUY!</button>
+            </li>
+            <li>
+                <img src="products/mousepad4.png">
+                <button onclick="onclick()" class="button" type="button">$29.99 BUY!</button>
+            </li>
+            <li>
+                <img src="products/mousepad5.png">
+                <button onclick="onclick()" class="button" type="button">$29.99 BUY!</button>
+            </li>
+            <li>
+                <img src="products/mousepad6.png">
+                <button onclick="onclick()" class="button" type="button"> $29.99 BUY!</button>
+            </li>
+        </ul>
     </section>
