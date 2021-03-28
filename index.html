@@ -4,7 +4,20 @@
     <title>HOME</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-
+<script>
+    var imgs = [
+        'products/mousepad1.png','products/mousepad2.png','products/mousepad3.png','products/mousepad4.png' ,'products/mousepad5.png','products/mousepad6.png' ];
+    var counter = 0;
+    
+    function change(){
+      counter++;
+        document.getElementById('slider').src = imgs[counter];
+        
+        if(counter >= 5){
+            counter = -1;
+        }
+    }
+</script>
 <body>
     <nav>
         <a class="special" href="index.html">HOME</a>
@@ -15,6 +28,9 @@
 
     <section>
         <h1>NEW MOUSE PAD STYLES OUT NOW</h1>
-        <img class="prodis" src="products/mousepad3.png">
-        <h2 class="box"> OUR NEW MOUSE PAD STYLES WELCOME IN THE USE OF OUR NEW MATIREAL TO PROVIDED ULTRA GLIDE FOR THE BEST EXPERINCE POSSIBLE WHILE GAMING <img class="logo2" src="logo/logoforshop2.png"></h2>
+        <img  id='slider' onclick="change()" class="prodis" src="products/mousepad1.png">
+            <h2 class="box"> OUR NEW MOUSE PAD STYLES WELCOME IN THE USE OF OUR NEW MATIREAL TO PROVIDED ULTRA GLIDE FOR THE BEST EXPERINCE POSSIBLE WHILE GAMING
+                <img class="logo2" src="logo/logoforshop2.png">
+            </h2>
+        
     </section>
