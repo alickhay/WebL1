@@ -3,23 +3,24 @@
 <head>
     <title>HOME</title>
     <link href="styles.css" rel="stylesheet">
-</head>
-<script>
-    var imgs = [
-        'products/mousepad1.png', 'products/mousepad2.png', 'products/mousepad3.png', 'products/mousepad4.png', 'products/mousepad5.png', 'products/mousepad6.png'
-    ];
-    var counter = 0;
+    
+    <script>
+        var imgs = [
+            'products/mousepad1.png', 'products/mousepad2.png', 'products/mousepad3.png', 'products/mousepad4.png', 'products/mousepad5.png', 'products/mousepad6.png'
+        ];
+        var counter = 0;
 
-    function change() {
-        counter++;
-        document.getElementById('slider').src = imgs[counter];
+        function change() {
+            counter++;
+            document.getElementById('slider').src = imgs[counter];
 
-        if (counter >= 5) {
-            counter = -1;
+            if (counter >= 5) {
+                counter = -1;
+            }
         }
-    }
 
-</script>
+    </script>
+</head>
 
 <body>
     <nav>
@@ -27,16 +28,18 @@
         <a href="shop.html">SHOP</a>
         <a href="about.html">ABOUT</a>
     </nav>
-    <img class="logo" src="logo/logoforshop2.png">
+    <img class="logo" src="logo/logoforshop2.png" alt="sdfsd">
 
     <section>
         <h1>NEW MOUSE PAD STYLES OUT NOW</h1>
-        <li>
-            <img id='slider' class="prodis" src="products/mousepad1.png">
-            <button id='slider' onclick="change()" type="button">Click To See More!</button>
-        </li>
+        <ul>
+            <li>
+                <img id='slider' class="prodis" src="products/mousepad1.png" alt="sdfds">
+                <button id='slider' onclick="change()" type="button">Click To See More!</button>
+            </li>
+        </ul>
         <h2 class="box"> OUR NEW MOUSE PAD STYLES WELCOME IN THE USE OF OUR NEW MATIREAL TO PROVIDED ULTRA GLIDE FOR THE BEST EXPERINCE POSSIBLE WHILE GAMING
-            <img class="logo2" src="logo/logoforshop2.png">
+            <img class="logo2" src="logo/logoforshop2.png" alt="sadfdsf">
         </h2>
 
     </section>
